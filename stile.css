@@ -25,6 +25,17 @@ a {
 .nav-link {
   padding: 20px;
 }
+.nav-link:hover {
+  transition: 0.3s;
+  color: #00bafc;
+  background-color: white;
+  border: 1px solid #00bafc;
+  display: flex;
+  align-items: center;
+  padding: 20px 18px;
+  border-radius: 15px;
+}
+
 .nav-url {
   color: #000;
   font-family: Roboto;
@@ -332,6 +343,13 @@ a {
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 30px */
+}
+.footer-link:hover {
+  transition: 0.3s;
+  color: #00bafc;
+  background-color: white;
+  border: 1px solid #00bafc;
+  padding: 7px 0;
 }
 .footer-bottom {
   background: linear-gradient(
