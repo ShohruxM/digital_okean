@@ -44,12 +44,10 @@ a {
   font-weight: 400;
   line-height: normal;
 }
-.header-link:hover {
+.nav-url:hover {
   transition: 0.3s;
   color: #00bafc;
   background-color: white;
-  border: 1px solid #00bafc;
-  padding: 14px 30px 10px 30px;
 }
 .header-link {
   display: flex;
